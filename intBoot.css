@@ -1,0 +1,96 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bggrisoscuro{
+    background-color: rgb(53, 58    , 64);
+}
+
+.anchocartel{
+    
+    margin-left: 40%;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.btcar{
+    height: 50px;
+}
+
+.cBot1{
+    background-color:rgb(255, 192, 8);
+    color: black;
+    
+}
+.cBot1:hover{
+    border-color: rgb(255, 192  , 8);
+    
+ }
+.cBot2{
+        background-color:rgb(23, 162, 185);
+        color: white; 
+     }
+     .cBot2:hover{
+        border-color: rgb(23, 162  , 185);
+        
+     }
+
+.cBot3{
+        background-color:rgb(109, 118, 125);
+        color: white;
+       
+     }
+     .cBot3:hover{
+        border-color: rgb(109, 118  , 125);
+        
+     }
+.cBot4{
+        background-color:rgb(218, 53, 67);
+        color: white;
+       
+     }
+     .cBot4:hover{
+        border-color: rgb(218, 53  , 67);
+        
+     }
+
+     .ancInp{
+        width: 300px;
+     }
+     .lTit{
+        margin-right: 380px;
+        font-size: 0.8rem;
+     }
+     .btnenv{
+        background-color: rgb(150, 201, 62);
+        border-color: antiquewhite;
+        color: white;
+        height: 40px;
+     }
+     .btnenv:hover{
+        background-color:darkgreen;
+        border-color:mediumspringgreen;
+        
+     }
+.divfin{
+    background-color: rgb(28, 56, 70);
+    
+    
+}
+    .imagecar{
+      filter: brightness(50%);
+      
+    }
+    .navbar-brand:hover{
+      color: rgb(255, 202, 2);
+    }
+    .st{}
+    .st:hover{
+      color: white;
+    }
+   .card:hover{
+      box-shadow: 1px 1px grey;
+   }
