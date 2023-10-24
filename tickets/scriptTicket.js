@@ -7,7 +7,9 @@ function calcT() {
     
 
     if(cant>0){
-     let total=cant*1000
+      let total=cant*1000
+      let desc=document.getElementById("descuento").value
+      total= total-(total*desc/100)
      document.getElementById("total").className= "bg-info text-white"
      document.getElementById("total").innerHTML=total
     }else{
